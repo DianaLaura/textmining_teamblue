@@ -1,6 +1,7 @@
 # textmining_teamblue
 
 Data set: https://data.world/elenadata/vox-articles
+
 Current subset: computer_subset_scraped_tokenized.csv
 
 Pre-made sentiment lexicons:
