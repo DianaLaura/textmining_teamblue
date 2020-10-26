@@ -1,0 +1,7 @@
+I decided to use Adjusted Mutual Information for measuring how strong the algorithm agrees with the manual annotation.
+The AMI is supposed to return a value between 0 and 1, where 0 means that there is no agreement at all, and 1 means full agreement.
+
+The AMI returned 0.00 for both Diana's and Edwards annotation, which means that the algorithm does not agree with our annotation.
+However, it was difficult to assign sentiments to the labels the algorithm gives back, since k-means is an algorithm for unsupervised
+learning and therefore does not consider any given labels. It might also be that the algorithm is not very good, which might also lead
+to unclear results.
